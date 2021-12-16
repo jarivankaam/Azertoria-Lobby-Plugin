@@ -1,0 +1,14 @@
+name: Lobbyplugin2
+version: '${project.version}'
+main: lobbyplugin2.lobbyplugin2.Lobbyplugin2
+api-version: 1.17
+authors: [ Azer_Api ]
+description: A lobby plugin for the Azertoria server
+commands:
+  lobby:
+    description: Teleport to the lobby
+    usage: /<command>
+    aliases: hub
+  invisible:
+    description: toggleable vanish you can add true or false if needed
+    usage: /<command> True/False
