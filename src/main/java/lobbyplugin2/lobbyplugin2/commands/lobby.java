@@ -18,7 +18,7 @@ public class lobby implements CommandExecutor {
 
             Player p = (Player) sender;
             p.sendMessage(ChatColor.AQUA + "[AN]" + ChatColor.BLUE + "Je word geteleporteerd naar de Lobby!");
-            p.performCommand("warp kerst");
+            p.performCommand("warp hub");
 
             p.setGameMode(GameMode.ADVENTURE);
 
